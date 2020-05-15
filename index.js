@@ -25,3 +25,7 @@ if(parsed>17){
 }
 }
 /* Write your implementation of displayMessage() */
+ function displayMessage(message){
+
+   document.getElementById('greeting').textContent= message;
+}

@@ -27,6 +27,7 @@ if(parsed>17){
 /* Write your implementation of displayMessage() */
  function displayMessage(message){
 
-  let greetingMessage= document.getElementById('greeting').innerHTML= message;
-  console.log(greetingMessage);
+  let greetingMessage= document.getElementById('greeting');
+  greetingMessage.innerText = message;
+  console.log(message);
 }

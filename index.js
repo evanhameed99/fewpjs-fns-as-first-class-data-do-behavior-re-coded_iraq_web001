@@ -21,7 +21,7 @@ if(parsed>12&&parsed<17){
 }
 if(parsed>17){
 
-  return "Good Eveninig"
+  return "Good Evening"
 }
 }
 /* Write your implementation of displayMessage() */
